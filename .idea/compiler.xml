@@ -14,10 +14,10 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="core" target="1.8" />
-      <module name="course" target="13" />
+      <module name="course" target="12" />
       <module name="devdojo-microservices" target="1.8" />
-      <module name="discovery" target="13" />
-      <module name="gateway" target="13" />
+      <module name="discovery" target="12" />
+      <module name="gateway" target="12" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
