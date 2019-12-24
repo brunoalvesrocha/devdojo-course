@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  mysqlsrv:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: "devdojo"
+      MYSQL_DATABASE: "root"
+    ports:
+      - "3306:3306"
+    volumes:
+      - microservices_devdojo:/var/lib/mysql
+
+volumes:
+  microservices_devdojo:
