@@ -1,0 +1,7 @@
+/.idea/
+.gitignore
+core/src/main/resources/
+core/src/test/
+core/target/generated-sources/
+core/target/generated-test-sources/
+core/target/test-classes/
