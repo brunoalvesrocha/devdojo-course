@@ -21,7 +21,7 @@
 
     <properties>
         <spring-cloud.version>Hoxton.SR1</spring-cloud.version>
-        <nimbus-jose-jwt.version>7.8</nimbus-jose-jwt.version>
+        <nimbus-jose-jwt.version>7.9</nimbus-jose-jwt.version>
     </properties>
 
     <dependencies>
