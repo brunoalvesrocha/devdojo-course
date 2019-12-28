@@ -1,9 +1,19 @@
 package academy.devdojo.core.model;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
+
+import static javax.persistence.GenerationType.IDENTITY;
 
 @Entity
 @Data
@@ -15,7 +25,7 @@ import javax.validation.constraints.NotNull;
 public class Course implements AbstractEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = IDENTITY)
     @EqualsAndHashCode.Include
     private Long id;
     @NotNull(message = "The field title is mandatory")
